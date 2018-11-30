@@ -1,0 +1,11 @@
+<div class="comments">
+  <div class="container">
+    <%= link_to 'New Comment', "new" %>
+    <% @comments.reverse.each do |comment| %>
+      <div class="comment">
+        <p class="content"><%= comment.content %></p>
+        <p class="time"><%= comment.created_at %></p>
+      </div>
+    <% end %>
+  </div>
+</div>

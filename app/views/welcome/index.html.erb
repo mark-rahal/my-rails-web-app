@@ -1,0 +1,13 @@
+<head>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <title>Mark's Site</title>
+</head>
+
+<body>
+<ul class="navbar">
+  <li><%= link_to('Home',{:action => 'index'}) %>
+  <li><%= link_to('Comments', {:controller => 'comments'}, {:action => 'comments#index'}) %>
+</ul>
+<h1>Mark's Site</h1>
+
+<p>Welcome!</p>
