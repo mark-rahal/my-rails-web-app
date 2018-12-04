@@ -1,7 +1,11 @@
+<body>
+<ul class="navbar">
+  <li><%= link_to('Home',{:controller => 'welcome'},{:action => 'index'}) %>
+  <li><%= link_to('Comments', {:controller => 'comments'}, {:action => 'index'}) %>
+</ul>
 <div class="create">
   <div class="container">
 
-    <!-- Your code here -->
     <%= form_for(@comment) do |f| %>
       <div class="field">
         <%= f.label :comment %><br>
@@ -13,3 +17,4 @@
     <% end %>
   </div>
 </div>
+</body>

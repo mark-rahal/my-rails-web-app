@@ -1,3 +1,8 @@
+<body>
+<ul class="navbar">
+  <li><%= link_to('Home',{:controller => 'welcome'},{:action => 'index'}) %>
+  <li><%= link_to('Comments', {:controller => 'comments'}, {:action => 'comments#index'}) %>
+</ul>
 <div class="comments">
   <div class="container">
     <%= link_to 'New Comment', "new" %>
@@ -9,3 +14,4 @@
     <% end %>
   </div>
 </div>
+</body>

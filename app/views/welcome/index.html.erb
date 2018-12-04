@@ -5,9 +5,11 @@
 
 <body>
 <ul class="navbar">
-  <li><%= link_to('Home',{:action => 'index'}) %>
-  <li><%= link_to('Comments', {:controller => 'comments'}, {:action => 'comments#index'}) %>
+  <li><%= link_to('Home',{:controller => 'welcome'},{:action => 'index'}) %>
+  <li><%= link_to('Comments', {:controller => 'comments'}, {:action => 'index'}) %>
 </ul>
 <h1>Mark's Site</h1>
 
-<p>Welcome!</p>
+<p>Welcome! This is the home page!</p>
+<p>There's nothing here... Yet!</p>
+</body>
