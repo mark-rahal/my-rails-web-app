@@ -1,4 +1,4 @@
-# My Rails Website
+# My Rails Web Application
 [Link to the site!](https://mark-rahal.herokuapp.com/)
 * Sidebar for navigation
 * Home page and comments page
